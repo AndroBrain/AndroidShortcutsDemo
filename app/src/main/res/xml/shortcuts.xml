@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shortcuts xmlns:android="http://schemas.android.com/apk/res/android">
+    <shortcut
+        android:enabled="true"
+        android:icon="@drawable/ic_shortcut"
+        android:shortcutDisabledMessage="@string/shortcut_disabled_message"
+        android:shortcutId="shortcut"
+        android:shortcutLongLabel="@string/shortcut_long_label"
+        android:shortcutShortLabel="@string/shortcut_short_label">
+        <!-- Place your activity info here -->
+        <intent
+            android:action="YOUR_ACTION_NAME"
+            android:targetClass="com.androbrain.androidshortcutsdemo.ShortcutActivity"
+            android:targetPackage="com.androbrain.androidshortcutsdemo" />
+
+        <!-- Currently there is only 1 category for conversations -->
+<!--        <categories android:name="android.shortcut.conversation" />-->
+    </shortcut>
+</shortcuts>
